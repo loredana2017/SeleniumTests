@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNG Suite" verbose="1" >
+    <test name="smoke-tests TestNGTest1" >
+        <classes>
+            <class name="org.example.TestNGTest1" />
+        </classes>
+    </test>
+
+    <test name="regression-test TestNGTest2" >
+        <classes>
+            <class name="org.example.TestNGTest2"/>
+        </classes>
+    </test>
+
+    <test name="regression-test Selenium" >
+        <classes>
+            <class name="org.example.TestNGSelenium"/>
+        </classes>
+    </test>
+</suite>
